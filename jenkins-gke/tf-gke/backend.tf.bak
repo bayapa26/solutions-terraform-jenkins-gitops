@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "bayapa-mulluri-sandbox-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }
